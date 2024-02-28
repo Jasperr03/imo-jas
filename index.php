@@ -39,6 +39,25 @@
     height: 100px;
     width: 100px;
    }
+
+   .row{
+    background-color: #d8f1f3;
+    padding-top: 10;
+    display: flex;
+   }
+
+   .article-div{
+    padding-top: 10;
+    
+    
+    width: auto;
+   }
+
+   .artist{
+    height: 350
+    
+   }
+
 </Style>
 <body>
     <!--Header Navigation-->
@@ -52,7 +71,7 @@
             <a href="#About">About</a>   
         </div>
     </div>
-
+    <!--Main Content-->
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-4">
@@ -71,6 +90,19 @@
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
         </div>
+
+    <div class="article-div">
+        <div class="img">
+           <img class="artist" src="assets/img/close-up-artist-sketch.jpg" alt="close-up-artist-sketch.jpg">
+           <article>
+                <p>aassassasasasasdsddsdsdsdsd</p>
+                <p>aassassasasasasdsddsdsdsdsd</p>
+                <br>
+                <p>aassassasasasasdsddsdsdsdsd</p>
+                <p>aassassasasasasdsddsdsdsdsd</p>
+           </article>
+        </div>
+    </div>
     </div>
 </body>
 </html>
