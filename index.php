@@ -5,6 +5,7 @@
     <title>imo-jas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="assets/img/creative-pencil-logo-design-vector-removebg-preview.png" rel="icon">
  </head>
 
 <Style>
@@ -43,8 +44,7 @@
     <!--Header Navigation-->
     <div class="topnav container-fluid">
         <div class="logo">
-            <img class="artlogo" src="assets/img/creative-pencil-logo-design-vector-removebg-preview.png" alt="creative-pencil-logo">
-            
+                <img class="artlogo" src="assets/img/creative-pencil-logo-design-vector-removebg-preview.png" alt="creative-pencil-logo">
         </div>
         <div class="topnav-right">
             <a href="#Home">Home</a>
