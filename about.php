@@ -47,9 +47,9 @@
             
         </div>
         <div class="topnav-right">
-            <a href="#Home">Home</a>
-            <a href="#Gallery">Gallery</a>
-            <a href="#About">About</a>   
+            <a href="index.php">Home</a>
+            <a href="gallery.php">Gallery</a>
+            <a href="about.php">About</a>      
         </div>
     </div>
 
