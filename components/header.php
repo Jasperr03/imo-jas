@@ -1,88 +1,9 @@
-<style>
-    .topnav{
-    overflow: hidden;
-    background-color: #404be3;
-   }
-
-   .topnav a{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-top: 15;
-   }
-
-   .topnav-right{
-    float: right;
-   }
-
-   .logo {
-    padding-left: 10;
-    text-align: center;
-    float: left;
-    margin-top: 10;
-   }
-
-   .artlogo {
-    height: 100px;
-    width: 100px;
-   }
-
-     
-   .dropdown {
-        float: right;
-        padding-right: 50;
-    }
-
-    .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    }
-
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding-right: 10;
-    }
-
-    .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    }
-
-    .dropdown-content a:hover {background-color: #f1f1f1}
-    
-    .dropdown:hover .dropdown-content {
-    display:block;
-    padding-right: 10;
-    }
-
-    .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-    }
-</style>
-
 <div class="topnav container-fluid">
         <div class="logo">
                 <img class="artlogo" src="assets/img/creative-pencil-logo-design-vector-removebg-preview.png" alt="creative-pencil-logo">
         </div>
-        <div class="topnav-right">
-            <a href="index.php">Home</a>
-            <a href='gallery.php'>Gallery</a>
-            <a href="about.php">About</a>   
-        </div>
+        <!--NavLink-->
+        <?php include 'components/navlink.php' ?>
     </div>
 <div>
 <div class="dropdown">

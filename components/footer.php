@@ -1,41 +1,4 @@
-<style>
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#160042;
-    color: white;
-    }
 
-    .footerLogo {
-    padding-left: 100;
-    float: left;
-    margin-top: 10;
-    margin-bottom: 10;
-    height: 150;
-   }
-
-   .row3{
-    padding-top: 10;
-    display: flex;
-   }
-
-   .facebook{
-    display: block;
-    padding-top: 2;
-   }
-
-   .insta{
-    display: block;
-    padding-top: 10;
-   }
-
-   .tiktok{
-    display: block;
-    padding-top: 10;
-   }
-</style>
 <div class="footer">
         <div class="row3">
             <div class="col-sm-4">
