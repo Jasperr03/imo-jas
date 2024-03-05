@@ -10,6 +10,8 @@
 <body>
 <!--Header-->
 <?php include 'components/header.php'?>
+<!--Galery Content-->
+<?php include 'content/galleryContent.php' ?>
 <!--Footer-->
 <?php include 'components/footer.php' ?>
 </body>

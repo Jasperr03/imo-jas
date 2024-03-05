@@ -14,7 +14,7 @@
     <!--Header Navigation-->
     <?php include 'components/header.php' ?>
     <!--Main Content-->
-    <?php include 'components/main_home.php' ?>
+    <?php include 'content/main_home.php' ?>
     <!--footer-->
    <?php include 'components/footer.php' ?>
 </body>
