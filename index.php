@@ -1,4 +1,7 @@
 <?php require_once 'connection.php' ?>
+<!--script for side nav-->
+<script src="actions/sidenav.js"></script>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +11,15 @@
     <link href="assets/img/creative-pencil-logo-design-vector-removebg-preview.png" rel="icon">
     <link rel="stylesheet" href="css/mystyle.css">
  </head>
-
-<Style>
-</Style>
 <body>
     <!--Header Navigation-->
     <?php include 'components/header.php' ?>
+    <!--side Nav-->
+    <?php include 'components/sidenav.php' ?>
     <!--Main Content-->
-    <?php include 'content/main_home.php' ?>
+    <div id="#main">
+        <?php include 'content/main_home.php' ?>
+    </div>
     <!--footer-->
    <?php include 'components/footer.php' ?>
 </body>

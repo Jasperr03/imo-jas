@@ -1,3 +1,6 @@
+<!--script for side nav-->
+<script src="actions/sidenav.js"></script>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,6 +13,8 @@
 <body>
 <!--Header-->
 <?php include 'components/header.php'?>
+<!--side Nav-->
+<?php include 'components/sidenav.php' ?>
 <!--Galery Content-->
 <?php include 'content/galleryContent.php' ?>
 <!--Footer-->
