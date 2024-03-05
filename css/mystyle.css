@@ -171,7 +171,7 @@
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #00b8e6;
   }
   
   div.gallery img {
@@ -181,5 +181,10 @@
   
   div.desc {
     padding: 15px;
+    
     text-align: center;
+  }
+
+  .desc p {
+    color: #1dbfe7;
   }
