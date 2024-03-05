@@ -1,6 +1,32 @@
 
 <div class="content">
-   <div>
-        <p>helo</p>
+      <div>
+         <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+               <img src="assets/img/close-up-artist-sketch.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+         <a target="_blank" href="img_forest.jpg">
+            <img src="assets/img/close-up-artist-sketch.jpg" alt="Forest" width="600" height="400">
+         </a>
+         <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+         <a target="_blank" href="img_lights.jpg">
+            <img src="assets/img/close-up-artist-sketch.jpg" alt="Northern Lights" width="600" height="400">
+         </a>
+         <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div class="gallery">
+         <a target="_blank" href="img_mountains.jpg">
+            <img src="assets/img/close-up-artist-sketch.jpg" alt="Mountains" width="600" height="400">
+         </a>
+         <div class="desc">Add a description of the image here</div>
+      </div>
    </div>
 </div>
