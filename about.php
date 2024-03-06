@@ -1,5 +1,5 @@
 <!--script for side nav-->
-<script src="actions/sidenav.js"></script>
+<script src="js/sidenav.js"></script>
 
 <html lang="en">
 <head>
@@ -17,6 +17,7 @@
         <?php include 'components/header.php' ?>
         <!--side Nav-->
         <?php include 'components/sidenav.php' ?>
+        <?php include 'content/aboutContent.php' ?>
         <!--footer-->
         <?php include 'components/footer.php' ?>
     </div>

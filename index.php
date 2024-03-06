@@ -1,6 +1,6 @@
 <?php require_once 'connection.php' ?>
 <!--script for side nav-->
-<script src="actions/sidenav.js"></script>
+<script src="js/sidenav.js"></script>
 
 <html lang="en">
 <head>

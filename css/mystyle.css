@@ -1,6 +1,9 @@
 
 /***** Header *****/
-.topnav{
+  div.topnav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     overflow: hidden;
     background-color: #404be3;
    }
@@ -52,10 +55,6 @@
         color: white;
         overflow: hidden;
         }
-
-    .coppyright {
-      display: flex;
-    }
       
    /***** footer logo *****/
     .footerLogo {
