@@ -1,6 +1,6 @@
 <?php require_once 'connection.php' ?>
 <!--script for side nav-->
-<script src="actions/sidenav.js"></script>
+
 
 <html lang="en">
 <head>
@@ -15,11 +15,9 @@
     <!--Header Navigation-->
     <?php include 'components/header.php' ?>
     <!--side Nav-->
-    <?php include 'components/sidenav.php' ?>
+    
     <!--Main Content-->
-    <div id="#main">
         <?php include 'content/main_home.php' ?>
-    </div>
     <!--footer-->
    <?php include 'components/footer.php' ?>
 </body>
