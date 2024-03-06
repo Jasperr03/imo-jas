@@ -2,7 +2,6 @@
 <!--script for side nav-->
 <script src="actions/sidenav.js"></script>
 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">

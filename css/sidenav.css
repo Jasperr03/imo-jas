@@ -4,8 +4,9 @@
     cursor: pointer;
     float: left;
     margin-left: 10;
-    width: 20;
-    height: 20;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
   }
 
   /***** side content *****/
@@ -21,7 +22,7 @@
     transition: 0.5s;
     padding-top: 60px;
   }
-  
+ 
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -30,7 +31,12 @@
     display: block;
     transition: 0.3s;
   }
-  
+
+  .coppyright a{
+    color: #a09c9c;
+    padding-top: 100px;
+  }
+
   .sidenav a:hover {
     color: #84a5ad;
   }

@@ -35,6 +35,7 @@
     
     .topnav-right a{
         display: block;
+        border-radius: 3px;
     }
     
     .topnav-right a:hover{
@@ -51,6 +52,10 @@
         color: white;
         overflow: hidden;
         }
+
+    .coppyright {
+      display: flex;
+    }
       
    /***** footer logo *****/
     .footerLogo {
